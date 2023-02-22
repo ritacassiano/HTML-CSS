@@ -1,0 +1,8 @@
+ROTEIRO HTML
+
+*Formatos em negrito/itálico
+*Outros formatos
+*Listas
+*Imagens
+*Favicon
+*Links e downloads

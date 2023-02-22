@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="dog.ico">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas/site responsivo</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente diminua o tamanho do seu navegador.</p>
+
+    <!--começamos primeiro, lá na base, pela imagem maior e vamos colocando as menores sempre acima destas.-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-M.png" type="image/png">
+        <img src="imagens/img-G.png" alt="imagem flexível">
+    </picture>
+    
+</body>
+</html>
