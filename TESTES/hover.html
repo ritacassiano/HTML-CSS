@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hover</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover p{
+            display: block;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            
+            color: brown;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        img:hover{
+            /*aqui se aplica CSS*/
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+
+    <div>
+        Passe o mouse aqui
+        <p>oieeeeeee... 😊</p>
+    </div>
+
+    <ul>
+        <li><a href="https://www.uol.com.br/">UOL</a></li>
+        <li><a href="https://pt.wikipedia.org">Wikipédia</a></li>
+        <li><a href="https://www.udemy.com">Udemy</a></li>
+    </ul>
+
+    <img src="imagens/Flores-Holambra-300.jpg" alt="Flores">
+    
+</body>
+</html>

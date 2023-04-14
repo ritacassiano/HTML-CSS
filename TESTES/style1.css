@@ -1,0 +1,46 @@
+
+
+body{
+    background-color: rgb(221, 221, 95);
+}
+
+h1{
+    background-image: linear-gradient(to bottom, blue, white);
+    text-align: center;
+    padding: 30px;
+    border: solid;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black;
+    color: brown;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+nav a{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+a:hover{
+    color: yellow;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
